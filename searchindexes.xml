@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title/><url>/post/c-cpp-vscode/</url><categories/><tags/><content type="html"><![CDATA[  前置小知识 本文假定阅读对象为刚入门的c/c++新手,无前置要求
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>i, robot</title><url>/about.html</url><categories/><tags/><content type="html"> 暂时没想到写啥，就先这样</content></entry><entry><title>windows下配置vscode开发c/c++</title><url>/post/c-cpp-vscode/</url><categories/><tags><tag>Linux</tag><tag>Fedora</tag></tags><content type="html"><![CDATA[  前置小知识 本文假定阅读对象为刚入门的c/c++新手,无前置要求
 开始 1. 了解c语言的hello world 以下给出一个实例
 #include &amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;hello world!&amp;#34;); return 0; } 以上是一段c语言的入门代码。
 编程语言发展经过了三代，一是可直接执行的机器语言，二是汇编语言，三是高级语言。
@@ -14,7 +14,7 @@ ps:但是由于某些原因，下载会非常慢，所以这种方法不推荐�
 下载完后点击安装
 这里的PATH后面会再次遇到，可以把图里出现的全部勾上
 等待安装完成，然后桌面启动运行即可。
-vscode微软商店下载（ …  ]]></content></entry><entry><title>i, robot</title><url>/about.html</url><categories/><tags/><content type="html"> 暂时没想到写啥，就先这样</content></entry><entry><title>简单记录一下fedora的使用</title><url>/post/fedora/</url><categories/><tags><tag>Linux</tag><tag>Fedora</tag></tags><content type="html"> 前言 Fedora是GNU/linux的一个发行版，背后主要是redhat，大多把Fedora看作RHEL的上游，因为redhat把许多功能添加进Fedora，稳定后再放入RHEL。因此，Fedora的更新是频繁的，适合没事就点两下更新的人群。主版本的更新周期是大概13个月。也可以采用预发布版本，但是不推荐(比如docker的仓库好像不支持预发布版本，当然可以强制安装，就是麻烦)。
+vscode微软商店下载（ …  ]]></content></entry><entry><title>简单记录一下fedora的使用</title><url>/post/fedora/</url><categories/><tags><tag>Linux</tag><tag>Fedora</tag></tags><content type="html"> 前言 Fedora是GNU/linux的一个发行版，背后主要是redhat，大多把Fedora看作RHEL的上游，因为redhat把许多功能添加进Fedora，稳定后再放入RHEL。因此，Fedora的更新是频繁的，适合没事就点两下更新的人群。主版本的更新周期是大概13个月。也可以采用预发布版本，但是不推荐(比如docker的仓库好像不支持预发布版本，当然可以强制安装，就是麻烦)。
 安装 准备条件： 一个大一点的U盘，8G以上均可 一台电脑 下载iso镜像文件 Fedora分几种版本，一般来说开发尝鲜用Workstation版即可
 https://fedoraproject.org/ 官网是上面这个，找到Workstation，点Download Now，进去可以看到
 先下左边这个media write，作用是把Fedora的iso文件写入U盘，可以插U盘然后装fedora到硬盘上。还需要下右边的iso镜像文件，看架构来选即可，多是x86_64.（也可以选择不下，打开media write后有自动下载的选项）
